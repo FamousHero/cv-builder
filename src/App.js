@@ -9,7 +9,7 @@ import { useRef, useState } from 'react';
 function App() {
   const titleClass = 'title';
   const [editMode, setEditMode] = useState(true);
-  const [buttonText, setButtonText] = useState();
+  const [buttonText, setButtonText] = useState("Submit");
   const genInfoRefs = {
     nameRef: useRef(),
     phoneRef: useRef(),
